@@ -1,0 +1,26 @@
+@import "../../_globalColor";
+
+.about-section {
+    background: $secondaryBgColor;
+    padding: 30px;
+    // margin-top: 3rem;
+}
+
+.about-section .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-section desc {
+    font-size: 22px;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about-section .contact-button-center {
+    margin: 0 auto;
+    width: max-content;
+}

@@ -1,0 +1,102 @@
+@import "../../_globalColor";
+
+.greeting-text-div {
+  padding-top: 7rem;
+  margin: 0 30px;
+}
+
+.subTitle {
+  color: $subTitle  !important;
+}
+
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 60px;
+  margin: 25px !important;
+  line-height: 1.1;
+  color: $textColor  !important;
+}
+
+.text-animation-slide {
+  display: inline-block;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+.hero-img {
+  width: 90%;
+  margin-top: 5rem;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-10deg);
+  }
+
+  20% {
+    transform: rotate(12deg);
+  }
+
+  30% {
+    transform: rotate(-10deg);
+  }
+
+  40% {
+    transform: rotate(9deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 42px;
+  }
+
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../globalColor.scss";
+
+.header {
+    background-color: $bgColor;
+    max-width: 100%;
+    padding: 5px 20px;
+    margin: 0px auto;
+    height: 40px;
+    border-bottom: 1px solid silver;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header .menu {
+    float: right;
+    display: flex;
+}
+
+.header li a {
+    display: block;
+    padding: 10px 0px;
+    margin: 0 12px;
+    color: $textColor;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    border-bottom: 1px solid $primaryColor;
+}
+
+.header .logo {
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+.header .logo .grey-color {
+    color: $subTitle;
+}
+
+.header .logo-name {
+    font-family: "Agustina Regular";
+    font-weight: bold;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    padding: 0 10px;
+    color: $primaryColor
+}
