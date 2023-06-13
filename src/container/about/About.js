@@ -6,7 +6,7 @@ import Button from '../../components/button/Button';
 
 const About = () => {
     return (
-      <div id="about " className="about-section ">
+      <div id="about" className="about-section ">
         <div className="title colorText">About Me</div>
         <div className="desc">{aboutSection.desc}</div>
         <Button
@@ -14,6 +14,8 @@ const About = () => {
           href={greeting.resumeLink}
           className="contact-button-center"
         />
+        <br />
+        <br />
       </div>
     );
 }

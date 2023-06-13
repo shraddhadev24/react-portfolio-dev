@@ -33,9 +33,9 @@ function Header() {
           <li>
             <a href="#experience">Work Experiences</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blogs">Blogs</a>
-          </li>
+          </li> */}
           <li>
             <a href={greeting.resumeLink} target="_blank" rel="noreferrer">
               Downlaod My CV
