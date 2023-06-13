@@ -18,13 +18,13 @@ function Header() {
       <div className={"header"}>
         {logo}
         {/* <input className="menu-btn" type="checkbox" id="menu-btn" /> */}
-        <label
+        {/* <label
           className="menu-icon"
           htmlFor="menu-btn"
           style={{ color: "white" }}
         >
           <span className={"navicon"}></span>
-        </label>
+        </label> */}
         <ul className={"menu"}>
           <li>
             <a href="#about">About</a>

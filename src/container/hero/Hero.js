@@ -4,8 +4,8 @@ import TextAnimation from "react-text-animations";
 import emoji from "react-easy-emoji";
 
 import HeroImg from "../../assets/images/heroImage.png";
-import SocialMedia from "../socialMedia/SocialMedia";
-import Button from "../button/Button";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import Button from "../../components/button/Button";
 import { greeting } from "../../utils/portfolio";
 import "./Hero.scss";
 
